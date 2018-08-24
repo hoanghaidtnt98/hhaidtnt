@@ -2,9 +2,13 @@
 @import 'body.css';
 table{
     clear: both;
+    border-collapse: collapse;
 }
-body{
+html{
     width: 19%;
-    height:50%;
+    height:35%;
    
+}
+#bgr{
+    
 }
