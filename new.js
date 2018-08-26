@@ -48,5 +48,14 @@ tru1.addEventListener('click',function(){
 		}
 		else alert("số lượng không thể âm");
 	})
+var xoa= document.getElementById('xoa');
+var xoa1= document.getElementById('xoa1');
 
-	
+xoa.addEventListener('click', function(){
+    var a=document.getElementById('tr');
+    a.remove();
+})
+xoa1.addEventListener('click', function(){
+    var a=document.getElementById('tr1');
+    a.remove();
+})
