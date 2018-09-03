@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chào</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      <input type="text" id="text" value="giá trị đoạn text"/> <br>
+      <input type="button" id="view" value="xóa value"/>
+      <input type="button" id="view2" value="Đổi type thành checkbox"/>
+      
+      <script language="javascript">
+          $(document).ready(function(){
+            $('#view').click(function(){
+				$('#text').removeAttr('value');
+			})
+            
+			$('#view2').click(function(){
+				$('#text').attr('type','checkbox');
+			})
+          });
+        
+      </script>
+      
+    </body>
+</html>
